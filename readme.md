@@ -58,7 +58,7 @@ int main() {
 }
 ```
 
-### FIFO & LIFO usage can be similarly demonstrated:
+### FIFO & LIFO usage can be similarly used:
 
 ```cpp
 #include "include/fifo_cache_policy.hpp"
@@ -114,12 +114,12 @@ Value for key 'B': 2001
 ## 📂 Project Structure
 
 ```
-├── include/
-│   ├── cache.hpp                // core cache implementation
-│   ├── cache_policy.hpp        // base policy interface
-│   ├── fifo_cache_policy.hpp   // FIFO strategy
-│   ├── lifo_cache_policy.hpp   // LIFO strategy
-│   ├── lru_cache_policy.hpp    // LRU strategy
+
+├── cache.hpp                // core cache implementation
+├── cache_policy.hpp        // base policy interface
+├── fifo_cache_policy.hpp   // FIFO strategy
+├── lifo_cache_policy.hpp   // LIFO strategy
+├── lru_cache_policy.hpp    // LRU strategy
 ├── main.cpp                    // usage demo
 ├── README.md                   // this file
 ```
