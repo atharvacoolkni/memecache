@@ -54,4 +54,4 @@ namespace caches
     };
 }
 
-#endif // LIFO_CACHE_POLICY_HPP
+#endif 
